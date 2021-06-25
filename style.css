@@ -1,0 +1,64 @@
+.hr1 {
+background: #169dd5;
+height: 9px;
+border: 1px
+}
+
+.hr2 {
+background: #98c13d;
+height: 9px;
+border: 1px
+}
+
+
+r {
+color: red;
+}
+
+.link1 {text-decoration: none;
+font-weight: bold;
+font-family: "Arial";
+font-size: 22px;
+color: #169dd5;
+}
+
+.link1:hover {
+color:red;
+}
+
+
+.link2 {
+text-decoration: none;
+font-weight: bold;
+font-family: "Arial";
+font-size: 22px;
+color: #98c13d;
+}
+
+.link2:hover {
+color: red;
+}
+
+
+.english {
+font-weight: bold;
+font-family: "Arial";
+font-size: 22px;
+color: #169dd5
+}
+
+.polish {
+color: #98c13d
+}
+
+.english18px {
+font-weight: bold;
+font-family: "Arial";
+font-size: 18px;
+color: #169dd5
+}
+
+
+audio::-webkit-media-controls-panel {
+background-color: #98c13d !important;
+}
