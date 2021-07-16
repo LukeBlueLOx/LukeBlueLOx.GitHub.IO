@@ -16,7 +16,7 @@ color: red;
 }
 
 .link1 {text-decoration: none;
-font-weight: bold;
+font-weight: 600;
 font-family: "Arial";
 font-size: 22px;
 color: #169dd5;
@@ -29,7 +29,7 @@ color:red;
 
 .link2 {
 text-decoration: none;
-font-weight: bold;
+font-weight: 600;
 font-family: "Arial";
 font-size: 22px;
 color: #98c13d;
