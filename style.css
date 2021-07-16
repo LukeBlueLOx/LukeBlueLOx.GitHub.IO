@@ -16,7 +16,7 @@ color: red;
 }
 
 .link1 {text-decoration: none;
-font-weight: 600;
+font-weight: 500;
 font-family: "Arial";
 font-size: 22px;
 color: #169dd5;
@@ -29,7 +29,7 @@ color:red;
 
 .link2 {
 text-decoration: none;
-font-weight: 600;
+font-weight: 500;
 font-family: "Arial";
 font-size: 22px;
 color: #98c13d;
@@ -41,7 +41,7 @@ color: red;
 
 
 .english {
-font-weight: 600;
+font-weight: 500;
 font-family: "Arial";
 font-size: 22px;
 color: #169dd5
@@ -52,7 +52,7 @@ color: #98c13d
 }
 
 .english18px {
-font-weight: 600;
+font-weight: 500;
 font-family: "Arial";
 font-size: 18px;
 color: #169dd5
