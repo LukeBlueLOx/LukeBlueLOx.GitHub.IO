@@ -248,7 +248,7 @@ body
 #menu1
 {
   position: absolute;
-  width: 100%;
+  width: 600px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -394,7 +394,7 @@ body
 #menu2
 {
   position: absolute;
-  width: 100%;
+  width: 600px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
