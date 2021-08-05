@@ -114,28 +114,15 @@ background-color: #98c13d !important;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
 body
 {
   margin: 5;
   padding: 0;
-  
-  /* make it look decent enough */
   background: #21428e;
   color: #169dd5;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
-
 #menuToggle1
 {
   display: block;
@@ -148,7 +135,6 @@ body
   -webkit-user-select: none;
   user-select: none;
 }
-
 #menuToggle1 a
 {
   text-decoration: none;
@@ -156,13 +142,10 @@ body
   
   transition: color 0.3s ease;
 }
-
 #menuToggle1 a:hover
 {
   color: #FF0000;
 }
-
-
 #menuToggle1 input
 {
   display: block;
@@ -179,10 +162,6 @@ body
   
   -webkit-touch-callout: none;
 }
-
-/*
- * Just a quick hamburger
- */
 #menuToggle1 span
 {
   display: block;
@@ -202,49 +181,30 @@ body
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #menuToggle1 span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #menuToggle1 span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle1 input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #169dd5;
 }
-
-/*
- * But let's hide the middle one.
- */
 #menuToggle1 input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle1 input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu1
 {
   position: absolute;
@@ -255,8 +215,7 @@ body
   border: 3px solid red;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
+ 
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
@@ -269,15 +228,11 @@ body
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
+
 #menuToggle1 input:checked ~ ul
 {
   transform: none;
 }
-
-
 #menuToggle2
 {
   display: block;
@@ -290,7 +245,6 @@ body
   -webkit-user-select: none;
   user-select: none;
 }
-
 #menuToggle2 a
 {
   text-decoration: none;
@@ -298,13 +252,10 @@ body
   
   transition: color 0.3s ease;
 }
-
 #menuToggle2 a:hover
 {
   color: #FF0000;
 }
-
-
 #menuToggle2 input
 {
   display: block;
@@ -321,10 +272,6 @@ body
   
   -webkit-touch-callout: none;
 }
-
-/*
- * Just a quick hamburger
- */
 #menuToggle2 span
 {
   display: block;
@@ -344,49 +291,30 @@ body
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #menuToggle2 span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #menuToggle2 span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle2 input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #98c13d;
 }
-
-/*
- * But let's hide the middle one.
- */
 #menuToggle2 input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle2 input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu2
 {
   position: absolute;
@@ -413,9 +341,6 @@ body
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle2 input:checked ~ ul
 {
   transform: none;
