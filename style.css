@@ -250,9 +250,6 @@ body
   position: absolute;
   width: 850px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
   background: #21428e;
   list-style-type: none;
   border: 3px solid red;
@@ -269,7 +266,6 @@ body
 #menu1 li
 {
   padding: 10px 0;
-  padding-left: 50px;
   font-size: 22px;
 }
 
@@ -396,9 +392,6 @@ body
   position: absolute;
   width: 850px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
   background: #21428e;
   list-style-type: none;
   list-style-type: none;
