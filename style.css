@@ -123,6 +123,7 @@ body
   color: #169dd5;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
+
 #menuToggle1
 {
   display: block;
@@ -318,7 +319,7 @@ body
 #menu2
 {
   position: absolute;
-  width: 850px;
+  width: 590px;
   margin: -100px 0 0 -50px;
   background: #21428e;
   list-style-type: none;
