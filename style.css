@@ -209,7 +209,7 @@ body
 #menu1
 {
   position: absolute;
-  width: 850px;
+  width: 600px;
   margin: -100px 0 0 -50px;
   background: #21428e;
   list-style-type: none;
@@ -319,7 +319,7 @@ body
 #menu2
 {
   position: absolute;
-  width: 590px;
+  width: 600px;
   margin: -100px 0 0 -50px;
   background: #21428e;
   list-style-type: none;
