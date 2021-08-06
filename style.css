@@ -128,7 +128,7 @@ body {
 #menuToggle1 {
   display: block;
   position: relative;
-  top: 210px;
+  top: 225px;
   left: 0px;
   z-index: 1;
   -webkit-user-select: none;
@@ -211,7 +211,7 @@ body {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu1 li {
+#menu1 button1 {
   padding: 10px 0;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -226,7 +226,7 @@ body {
 #menuToggle2 {
   display: block;
   position: relative;
-  top: 225px;
+  top: 240px;
   left: 0px;
   z-index: 1;
   -webkit-user-select: none;
@@ -310,7 +310,7 @@ body {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu2 li {
+#menu2 button2 {
   padding: 10px 0;
   padding-top: 50px;
   padding-bottom: 50px;
