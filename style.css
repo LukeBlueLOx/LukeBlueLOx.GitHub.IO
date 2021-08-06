@@ -317,7 +317,7 @@ body {
 }
 
 
-#bttbutton {
+#button {
   display: inline-block;
   background-color: #169dd5;
   width: 50px;
@@ -334,7 +334,7 @@ body {
   z-index: 1000;
 }
 
-#bttbutton::after {
+#button::after {
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -344,20 +344,20 @@ body {
   color: red;
 }
 
-#bttbutton:hover {
+#button:hover {
   cursor: pointer;
   background-color: #98c13d;
 }
 
-#bttbutton:active {
+#button:active {
   background-color: #555;
 }
 
-#bttbutton.show {
+#button.show {
   opacity: 1;
   visibility: visible;
 }
   
-#bttbutton {
+#button {
     margin: 5px;
 }
