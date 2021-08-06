@@ -200,6 +200,8 @@ body {
   position: absolute;
   width: 600px;
   margin: -100px 0 0 -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #21428e;
   list-style-type: none;
   border: 3px solid red;
@@ -296,6 +298,8 @@ body {
   position: absolute;
   width: 600px;
   margin: -100px 0 0 -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #21428e;
   list-style-type: none;
   list-style-type: none;
