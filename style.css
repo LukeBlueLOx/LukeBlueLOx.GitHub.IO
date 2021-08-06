@@ -350,7 +350,8 @@ body
 }
 
 
-#bttbutton {
+#bttbutton 
+{
   display: inline-block;
   background-color: #169dd5;
   width: 50px;
@@ -366,7 +367,9 @@ body
   visibility: hidden;
   z-index: 1000;
 }
-#bttbutton::after {
+
+#bttbutton::after 
+{
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -375,20 +378,25 @@ body
   line-height: 50px;
   color: red;
 }
-#bttbutton:hover {
+
+#bttbutton:hover
+{
   cursor: pointer;
   background-color: #98c13d;
 }
-#bttbutton:active {
+
+#bttbutton:active
+{
   background-color: #555;
 }
-#bttutton.show {
+
+#bttutton.show 
+{
   opacity: 1;
   visibility: visible;
 }
-
-
-  }
-  #bttbutton {
+  
+#bttbutton
+{
     margin: 5px;
 }
