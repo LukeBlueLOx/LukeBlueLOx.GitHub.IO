@@ -128,7 +128,7 @@ body {
 #menuToggle1 {
   display: block;
   position: relative;
-  top: 225px;
+  top: 75px;
   left: 0px;
   z-index: 1;
   -webkit-user-select: none;
@@ -226,7 +226,7 @@ body {
 #menuToggle2 {
   display: block;
   position: relative;
-  top: 240px;
+  top: 100px;
   left: 0px;
   z-index: 1;
   -webkit-user-select: none;
