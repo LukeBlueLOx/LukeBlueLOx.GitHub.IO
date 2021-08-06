@@ -353,7 +353,7 @@ body {
   background-color: #555;
 }
 
-#bttutton.show {
+#bttbutton.show {
   opacity: 1;
   visibility: visible;
 }
