@@ -203,6 +203,7 @@ body {
   background: #21428e;
   list-style-type: none;
   border: 3px solid red;
+  border-radius: 25px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -299,6 +300,7 @@ body {
   list-style-type: none;
   list-style-type: none;
   border: 3px solid red;
+  border-radius: 25px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -314,50 +316,4 @@ body {
 
 #menuToggle2 input:checked ~ ul {
   transform: none;
-}
-
-
-#button {
-  display: inline-block;
-  background-color: #169dd5;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: red;
-}
-
-#button:hover {
-  cursor: pointer;
-  background-color: #98c13d;
-}
-
-#button:active {
-  background-color: #555;
-}
-
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
-  
-#button {
-    margin: 5px;
 }
