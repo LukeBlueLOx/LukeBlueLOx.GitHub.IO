@@ -326,8 +326,8 @@ body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
   z-index: 99;
   font-size: 22px;
   border: 3px solid #169dd5;
