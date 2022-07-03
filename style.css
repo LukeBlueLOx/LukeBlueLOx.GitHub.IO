@@ -15,7 +15,8 @@ r {
 color: red;
 }
 
-.link1 {text-decoration: none;
+.link1 {
+/*text-decoration: none;*/
 font-weight: 500;
 font-family: "Arial";
 font-size: 22px;
